@@ -2,6 +2,17 @@ body {
     background-color: darkcyan;
 }
 
-p {
+p, h1, h2, ul li{
     color: blueviolet;
+}
+h2 {
+    float: left;
+    margin: 2%;
+    width: 20%;
+    background-color: burlywood;
+    padding: 20px;
+    text-align: right;
+}
+div {
+    clear:both;
 }

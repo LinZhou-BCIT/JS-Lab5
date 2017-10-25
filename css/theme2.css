@@ -2,6 +2,17 @@ body {
     background-color: bisque;
 }
 
-p {
+p, h1, h2, ul li {
     color: darkred;
+}
+h2 {
+    float: left;
+    margin: 2%;
+    width: 20%;
+    background-color: burlywood;
+    padding: 20px;
+    text-align:left;
+}
+div {
+    clear:both;
 }
