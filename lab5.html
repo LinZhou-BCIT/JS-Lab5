@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Lab 5</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css">
+    <link rel="stylesheet" id="jssDefault" href="css/theme1.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="scripts/jQuery.style.switcher.min.js"></script>
@@ -11,10 +12,17 @@
           $( function() {
             $( "#accordion" ).accordion();
             $( "#datepicker" ).datepicker();
+            $('#style-switcher').styleSwitcher();
           } );
     </script>
 </head>
 <body>
+    <ul id="style-switcher">
+      <li> <a href="javascript: void(0)" data-theme="theme1">Default Theme</a> </li>
+      <li> <a href="javascript: void(0)" data-theme="theme2">Theme 2</a> </li>
+      <li> <a href="javascript: void(0)" data-theme="theme3">Theme 3</a> </li>
+    </ul>
+
       <p>Date: <input type="text" id="datepicker"></p>
        <div id="accordion">
           <h3>Section 1</h3>
