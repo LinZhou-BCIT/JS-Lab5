@@ -1,9 +1,12 @@
 body {
     background-color: darkcyan;
 }
-
+main {
+    width: 80%;
+    margin: auto;
+}
 p, h1, h2, ul li{
-    color: blueviolet;
+    color:darkblue;
 }
 h2 {
     float: left;
@@ -11,7 +14,7 @@ h2 {
     width: 20%;
     background-color: burlywood;
     padding: 20px;
-    text-align: right;
+    text-align: center;
 }
 div {
     clear:both;
