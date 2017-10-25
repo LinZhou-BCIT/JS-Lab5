@@ -11,19 +11,21 @@
     <script src="scripts/jQuery.style.switcher.min.js"></script>
     <script src="scripts/jquery.corner.js"></script>
     <script src="scripts/jtip.js"></script>
-    
+    <script src="scripts/jquery.inline-edit.js"></script>
+
     <script>
         $( function() {
             $( "#accordion" ).accordion();
             $( "#datepicker" ).datepicker();
             $('#style-switcher').styleSwitcher();
             $('h2').corner("dog 20px");
+            $('.editable').inlineEdit();
         } );
     </script>
 </head>
 <body>
 
-      <div><h1>This text is editable.</h1></div>
+      <div><h1 class="editable">This text is editable.</h1></div>
        <div id="accordion">
           <h3>This is the stylesheet toggle</h3>
           <div>
